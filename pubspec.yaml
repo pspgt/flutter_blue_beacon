@@ -10,7 +10,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  flutter_blue: ^0.5.0
+  flutter_blue:
+    git:
+      url: https://github.com/rmawatson/flutter_blue.git
+      ref: background_feature
   quiver: '>=2.0.0 <3.0.0'
 
 dev_dependencies:

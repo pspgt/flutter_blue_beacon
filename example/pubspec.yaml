@@ -25,7 +25,10 @@ dependencies:
   cupertino_icons: ^0.1.2
   flutter_blue_beacon:
     path: ../
-  flutter_blue: ^0.5.0
+  flutter_blue:
+    git:
+      url: https://github.com/rmawatson/flutter_blue.git
+      ref: background_feature
 
 
 dev_dependencies:
